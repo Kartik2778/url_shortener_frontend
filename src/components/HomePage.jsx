@@ -37,7 +37,7 @@ const HomePage = () => {
         "originalUrl" : url.current.value
       }
       const response = await getShortenUrl(originalUrl);
-      setShortenedUrl(`http://localhost:8080/${response.data.shortUrl}`)
+      setShortenedUrl(`https://url-shortener-sb-ngxo.onrender.com/${response.data.shortUrl}`)
     }
     catch(error) {
       console.log("error",error);
