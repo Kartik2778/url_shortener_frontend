@@ -84,7 +84,7 @@ const UserDashboard = () => {
                   <span className="text-sm text-gray-500 mt-1">
                     Short URL:{' '}
                     <a
-                      href={`http://localhost:8080/${url.shortUrl}`}
+                      href={`https://url-shortener-sb-ngxo.onrender.com/${url.shortUrl}`}
                       className="text-purple-600 underline break-all"
                       target="_blank"
                       rel="noreferrer"
